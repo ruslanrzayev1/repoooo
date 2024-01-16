@@ -1,0 +1,18 @@
+.cartHeader{
+    background-color: black;
+    position: static;
+}
+#cartProdsSec{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .cartProdsCnt{
+        width: 90%;
+        min-height: 400px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+}

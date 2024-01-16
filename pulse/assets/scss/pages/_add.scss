@@ -1,0 +1,63 @@
+.addHeader {
+  background-color: black;
+  position: static;
+}
+#addPage {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  #addForm {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    div {
+      width: 90%;
+      min-height: 50px;
+      display: flex;
+      justify-content: space-around;
+      input {
+        width: 45%;
+      }
+    }
+    button {
+      background-color: #ffc515;
+      color: black;
+      border: none;
+      width: 100px;
+      height: 50px;
+    }
+  }
+  .searchProd {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    input {
+      width: 20%;
+      min-height: 50px;
+    }
+    button {
+      min-height: 50px;
+      width: 4%;
+    }
+  }
+  .addProducts {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 5px;
+    min-height: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .searchProdCnt {
+      width: 23%;
+    }
+  }
+}

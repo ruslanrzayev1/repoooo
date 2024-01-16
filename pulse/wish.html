@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header class="wishHeader">
+      <nav class="navbar navbar-expand-lg navBar">
+        <div class="container-fluid navbarCnt">
+          <a class="navbar-brand siteLogo" href="./home.html"
+            >Pulse<span style="color: #ffc515">.</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav navUl">
+              <li class="nav-item home">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Restaurant</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./wish.html"
+                  ><i class="fa-regular fa-heart"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./cart.html"
+                  ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./add.html"
+                  ><i class="fa-regular fa-user"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="reservation">
+            <span>
+              <span style="color: #ffc515">Reservations</span>
+              <i class="fa-solid fa-phone"></i> 652-345 3222 11
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section id="wishProdsSec">
+          <h1>WISH LIST</h1>
+          <div class="wishProdsCnt"></div>
+        </section>
+      </main>
+    <footer>
+      <form id="form">
+        <i class="fa-regular fa-drumstick"></i>
+        <div class="formTxt">
+          <div class="yellowLine"></div>
+          <h1>Contact us</h1>
+          <div class="yellowLine"></div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="nameInpCnt">
+                <input
+                  class="form-control nameInp"
+                  type="text"
+                  placeholder="Name"
+                  aria-label="default input example"
+                />
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+              <div class="emailInpCnt">
+                <input
+                  type="email"
+                  class="form-control emailInp"
+                  id="exampleFormControlInput1"
+                  placeholder="E-mail"
+                />
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="messageInpCnt">
+                <textarea
+                  class="messageInp"
+                  placeholder="Message"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="sendBtn">
+                <button type="submit">Send Message</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="footerEnd">
+        <p>
+          Copyright ©2024 All rights reserved | This template is made with ❤️ by
+          <a href="">Colorlib</a>
+        </p>
+      </div>
+    </footer>
+    <script src="./assets/js/wish.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

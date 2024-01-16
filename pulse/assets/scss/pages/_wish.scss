@@ -1,0 +1,18 @@
+.wishHeader{
+    background-color: black;
+    position: static;
+}
+#wishProdsSec{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .wishProdsCnt{
+        width: 55%;
+        min-height: 400px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+}
